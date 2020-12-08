@@ -4,6 +4,7 @@ import '../App.css';
 function Home(){
     return(
       <div className="name">
+        <img src="https://www.svgrepo.com/show/37286/boy.svg" style={{width:"200px"}}/>
         Hola, I'm <br/>
         Shlok✋
         <div className="dev">Developer | Student | Engineer</div>
