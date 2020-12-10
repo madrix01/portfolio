@@ -37,7 +37,7 @@ function ProjectCard(props){
 
     return(
         <a href={props.link} style={{ textDecoration: 'none'}}>
-            <Card className={classes.root} elevation={10}  >
+            <Card className={classes.root} elevation={10}>
                 <Typography className={classes.title}>{props.title}</Typography>
                 <Typography className={classes.description}>
                     {props.description}
