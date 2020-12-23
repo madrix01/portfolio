@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Typography, Button} from '@material-ui/core';
 import { makeStyles} from '@material-ui/core/styles';
-
+import './ProjectCard.css'
 
 function ProjectCard(props){
 
@@ -9,19 +9,20 @@ function ProjectCard(props){
         root : {
             maxWidth : '400px',
             margin : '20px',
+
             background: "#424242"
         },
         title:{
             margin: 20,
             fontSize : 30,
-            textAlign: "center",
+            textAlign: "left",
             fontFamily: 'Comfortaa',
             fontWeight: 700,
             color: "white"
         },
         description:{
             margin: 20,
-            textAlign : "justify",
+            textAlign : "left",
             color: "white",
             fontFamily: 'Comfortaa'
         },
@@ -37,14 +38,14 @@ function ProjectCard(props){
 
     return(
         <a href={props.link} style={{ textDecoration: 'none'}}>
-            <Card className={classes.root} elevation={10}>
+            <div className='rootCard'>
                 <Typography className={classes.title}>{props.title}</Typography>
                 <Typography className={classes.description}>
                     {props.description}
                 </Typography>
                 <div className={classes.btnDiv}>
                 </div>
-            </Card>
+            </div>
         </a>
     )
 }

@@ -2,7 +2,7 @@
 
 
 body{
-  background-color: #212121;
+  background-image: url('./Assets/bg.svg');
 }
 
 .head{
@@ -15,10 +15,9 @@ body{
 .name{
   font-weight: 600;
   text-align: center;
-  width: 100%;
-  margin-top: 200px;
-  margin-left: 30px;
-  color: #426DFB;
+  margin-top: 36vh;
+  margin-left: 15vw;
+  color: black;
   font-size: 70px;
   font-family: 'Comfortaa', cursive;
 }
@@ -43,6 +42,7 @@ body{
 .name-small{
   width: 50%;
   align-items: center;
+  
 }
 
 .skills{
@@ -55,5 +55,9 @@ body{
 .dev{
   font-weight: 600;
   font-size: 30px;
-  color: white;
+  color: #2c2c2c;
+}
+
+.skills :hover {
+  transform: scale(1.1);
 }

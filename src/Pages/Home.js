@@ -6,7 +6,7 @@ function Home(){
       <div className="name">
         Hola, I'm <br/>
         Shlok✋
-        <div className="dev">Developer | Student | Engineer</div>
+        <div className="dev">Developer | Student</div>
         <div className="skills">
 					<a href="https://github.com/madrix01" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
           <a href="mailto:shlokcpatel2001@gmail.com" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/gmail--v1.png"/></a>

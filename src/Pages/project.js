@@ -28,7 +28,10 @@ function Project(){
                     description = "Blogging app made using javascript and react"
                     link="https://github.com/madrix01/Blogwork-JS"
                 />
-                
+                <ProjectCard
+                    title = "💬CLI Chat app "
+                    description = "Chat from command line made with Javascript and Socket.io"
+                />
             </div>
         </div>
     )

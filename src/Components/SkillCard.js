@@ -15,7 +15,7 @@ function SkillCard(props){
           textAlign: "center",
           fontFamily: 'Comfortaa',
           fontWeight: 700,
-          color: "white"
+          color: "black"
         },
         logo:{
           display: 'flex',
